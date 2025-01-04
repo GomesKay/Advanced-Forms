@@ -1,6 +1,6 @@
-import { Trash } from "lucide-react"
 import { useContext } from "react"
-import { FormContext } from "@/App"
+import { Trash } from "lucide-react"
+import { FormContext } from "@/contexts/FormContext"
 
 export function Form() {
   const {
@@ -16,7 +16,7 @@ export function Form() {
   return (
     <form
       onSubmit={handleSubmit(createUser)}
-      className="smartphone:w-60 flex w-full max-w-sm flex-col gap-4 laptop:max-w-xl laptop:text-xl"
+      className="flex w-full max-w-sm flex-col gap-4 smartphone:w-60 laptop:max-w-xl laptop:text-xl"
     >
       {/* Campo do Nome */}
       <div className="flex flex-col gap-1">
@@ -90,7 +90,7 @@ export function Form() {
             <div className="flex flex-1 flex-col gap-1">
               <input
                 type="text"
-                className="smartphone:max-w-36 h-10 rounded border border-zinc-200 px-3 shadow-sm dark:border-zinc-600 dark:bg-zinc-900 mobile:w-64"
+                className="h-10 rounded border border-zinc-200 px-3 shadow-sm dark:border-zinc-600 dark:bg-zinc-900 smartphone:max-w-36 mobile:w-64"
                 {...register(`techs.${index}.title`)}
               />
 
