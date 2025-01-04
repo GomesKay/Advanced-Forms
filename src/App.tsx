@@ -10,8 +10,6 @@ import { zodResolver } from "@hookform/resolvers/zod"
  * [X] Registro do Formulário
  * [X] Validação | Transformação
  * [X] Field Arrays
- * [] Upload de Arquivos
- * [] Composition Pattern
  */
 
 // Define o Esquema de Validação do formulário usando Zod

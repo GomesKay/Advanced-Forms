@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import tailwindAnimate from "tailwindcss-animate"
+
 export default {
     darkMode: ["class"],
     content: [
@@ -64,6 +66,6 @@ export default {
 			laptop: { min: "1100px" }
 		}
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [tailwindAnimate],
 }
 
