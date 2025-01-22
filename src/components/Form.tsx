@@ -91,7 +91,7 @@ export function Form() {
               <input
                 type="text"
                 className="h-10 rounded border border-zinc-200 px-3 shadow-sm dark:border-zinc-600 dark:bg-zinc-900 smartphone:max-w-36 mobile:w-64"
-                {...register(`techs.${index}.title`)}
+                {...register(`techs.[${index}].title`)}
               />
 
               {errors.techs?.[index]?.title && (
@@ -107,7 +107,7 @@ export function Form() {
                 min={0}
                 max={10}
                 className="h-10 w-full rounded border border-zinc-200 px-3 shadow-sm dark:border-zinc-600 dark:bg-zinc-900"
-                {...register(`techs.${index}.knowledge`)}
+                {...register(`techs.[${index}].knowledge`)}
               />
               {errors.techs?.[index]?.title && (
                 <span className="text-sm text-red-500">

@@ -12,6 +12,7 @@ import { FormContext } from "./contexts/FormContext"
  * [X] Registro do Formulário
  * [X] Validação | Transformação
  * [X] Field Arrays
+ * [X] Cypress.io | Teste E2E
  */
 
 export function App() {
