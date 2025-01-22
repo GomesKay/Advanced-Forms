@@ -6,6 +6,7 @@
 
 ## 🚀 Tecnologias
 
+  <img title="Cypress.io" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original.svg" alt="Cypress.io" width="50" /> &nbsp;
   <img title="Lucide React" src="https://github.com/user-attachments/assets/779e5ab7-63a5-489d-aa13-b42ccfccd9ac" alt="Lucide React" width="50" /> &nbsp;
   <img title="React Hook Form" src="https://github.com/user-attachments/assets/913089a0-f8ca-47f1-9843-704163d3d270" alt="React Hook Form" width="50" /> &nbsp;
   <img title="Radix UI" src="https://github.com/user-attachments/assets/84ce900b-2686-40e1-a6d1-550d7b1f7670" alt="Radix UI" width="50" /> &nbsp;
@@ -16,5 +17,5 @@
   <img title="Zod" src="https://github.com/user-attachments/assets/bb33ed33-2e91-473c-9494-41386bf5111f" alt="Zod" width="50" />
 
 ## 💻 Projeto
-  <p>Projeto feito com React, mas tive foco em trabalhar com <b>React Hook Form, Zod e ContextAPI</b>.</p>
+  <p>Projeto feito com React, mas tive foco em trabalhar com <b>React Hook Form, Zod, ContextAPI e Cypress.io</b>.</p>
 </div>
