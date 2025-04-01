@@ -1,8 +1,30 @@
+<h1 align="center">📑 Formulário Avançado</h1>
+
+<img src="https://github.com/user-attachments/assets/9a2a1443-34da-4a65-bedc-a69e9979a662" alt="Tela da Aplicação" />
+
+<h2 align="center">💻 Instalação e Uso</h2>
+
+> [!NOTE]
+> Caso preferir abrir o Cypress.io, deixe o projeto rodando em um terminal e em outro terminal inicie o Cypress.io
+
+### 🛠️ Pré-requisitos
+ - Node.js
+ - NPM
+ - Git
+ - VSCode
+
+  | Passos | Comandos | Descrição |
+  | --- | --- | --- |
+  | 01 | `git clone https://github.com/GomesKay/Advanced-Forms.git` | Clona este repositório para o seu computador |
+  | 02 | `npm install` | Instala todas as dependências necessárias para o projeto |
+  | 03 | `npm run dev` | Inicia o servidor de desenvolvimento e abre o projeto no navegador |
+  | 04 | `npm run cy:open` | Inicia o Cypress.io para acompanhar os testes |
+  | 05 | ... | Clique na opção _E2E Testing_ |
+  | 06 | ... | Escolha um navagador de sua preferência e em seguida clique na opção _Start E2E Testing_ |
+  | 07 | ... | Clique o arquivo _form.cy.ts_ |
+  | 08 | ... | Pronto! Aplicação rodando e os testes rodando com sucesso ✅ |
+
 <div align="center">
-
-# 📑 Formulário Avançado
-  ![Tela da Aplicação](https://github.com/user-attachments/assets/9a2a1443-34da-4a65-bedc-a69e9979a662)
-
 
 ## 🚀 Tecnologias
 
@@ -16,6 +38,7 @@
   <img title="TailwindCSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="TailwindCSS" width="50" /> &nbsp;
   <img title="Zod" src="https://github.com/user-attachments/assets/bb33ed33-2e91-473c-9494-41386bf5111f" alt="Zod" width="50" />
 
-## 💻 Projeto
+## 🗡️ Projeto
   <p>Projeto feito com React, mas tive foco em trabalhar com <b>React Hook Form, Zod, ContextAPI e Cypress.io</b>.</p>
+  
 </div>
